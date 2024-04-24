@@ -10,6 +10,8 @@ AS $function$ declare v_customername varchar ( 1004 ) ;
  
  n record;
 
+k record;
+
  
 
 begin set search_path to billing ; 
