@@ -10,7 +10,7 @@ concat(P.FIRSTNAME,null) || ' ' ||
                  WHERE P.UHID = RH.UHID) AS PATIENTNAME,
                OT.PKG_OT_UTIL.F_GET_SURGERY_NAMES(RH.PROC_REQ_HDR_ID,
                                                   'A',
-                                                  10201) SERVICENAME,
+                                                  10201) SERVICENAME12,
                concat(CTD.TIMEOUT_DATE,null) ||' '|| concat(CTD.TIMEOUT_TIME,null) OTSTARTDATETIME,
                concat(CTD.CHKOUT_DATE,null) ||' '|| concat(CTD.CHKOUT_TIME,null) OTENDDATETIME,
                --(CTD.CHKOUT_TIME - CTD.TIMEOUT_TIME) * 24 * 60 OTDURATION,
