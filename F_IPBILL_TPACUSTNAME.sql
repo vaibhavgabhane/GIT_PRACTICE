@@ -9,6 +9,8 @@ AS $function$ declare v_customername varchar ( 1004 ) ;
  m record ; 
  
  n record;
+ 
+ o record;
 
  
 
